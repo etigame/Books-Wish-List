@@ -1,0 +1,10 @@
+.app-header {
+  background-color: blue;
+
+  nav {
+    > * {
+      color: white;
+      margin-inline-start: 10px;
+    }
+  }
+}

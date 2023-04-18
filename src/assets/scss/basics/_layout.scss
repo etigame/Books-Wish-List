@@ -1,0 +1,17 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+
+    > * {
+        grid-column: 2;
+
+        &.full {
+            grid-column: 1/-1;
+        }
+    }
+}
+
+.main-app {
+    display: grid;
+    grid-template-rows: 1fr 93vh 1fr;
+}
